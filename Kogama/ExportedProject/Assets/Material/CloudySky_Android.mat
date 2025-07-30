@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CloudySky_Android
+  m_Shader: {fileID: 4800000, guid: 1d69f62d54aa76c40b141822460f30a1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CloudsTex:
+        m_Texture: {fileID: 8900000, guid: e06c474ab1113d74db82bcf0f3d6bd11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MoonTex:
+        m_Texture: {fileID: 2800000, guid: acc05043b012df84cbd1835f4ceb0a0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SunTex:
+        m_Texture: {fileID: 2800000, guid: 379c73e8b2b1f1043a797dfe1b7e6453, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _CloudsHeight: 0
+      _CloudsOffset: 0.2
+      _CloudsRotationSpeed: 1
+      _Exposure: 1
+      _MoonSize: 1
+      _StarsExtinction: 2
+      _StarsTwinklingSpeed: 4
+      _SunSize: 1
+    m_Colors:
+      _BottomColor: {r: 0.773, g: 0.455, b: 0.682, a: 1}
+      _MoonTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _StarsTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _SunTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _TopColor: {r: 0.247, g: 0.318, b: 0.561, a: 1}
+  m_BuildTextureStacks: []

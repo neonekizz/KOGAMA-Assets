@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1434382359942828
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4608887954207397}
+  - component: {fileID: 114873793122403005}
+  - component: {fileID: 114292914890138106}
+  m_Layer: 0
+  m_Name: PrefabPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4608887954207397
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434382359942828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114873793122403005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434382359942828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f18ce0e3a15a2de51416130a493c2c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  enumPoolManager: {fileID: 114292914890138106}
+  mvFirePrefab: {fileID: 114139615549532658, guid: 1d94db26941c084489121ff4ddc87ecc, type: 2}
+  mvAndPrefab: {fileID: 114017490257223496, guid: eddca44a8ea30e4469210d1df6d91954, type: 2}
+  mvLocalAvatarPrefab: {fileID: 1745225632252245, guid: 1abf8bcba7ea2ca4ca4855fc6f8f57a0, type: 2}
+  mvRemoteAvatarPrefab: {fileID: 1570818331563550, guid: 54f423df454c5df40804b2fbd3cff413, type: 2}
+  mvLocalAvatarBuildModePrefab: {fileID: 1941676090901103, guid: 34be244128c29e24f9d172ef920dc0cd, type: 2}
+  mvRemoteAvatarBuildModePrefab: {fileID: 1265604412099764, guid: 385fc2a4a19a70a4090b4289d0278574, type: 2}
+  mvPreviewAvatarPrefab: {fileID: 1688500898040455, guid: 746fdc9dc01048b4485474177f75416e, type: 2}
+  mvAdvancedGhostPrefab: {fileID: 114405809925824869, guid: 2ee71eeec8cbbd2428dbd6a65253d187, type: 2}
+  mvBodyPrefab: {fileID: 114340381202959133, guid: a5a62d41f5e119c4d8f794a01daa30fb, type: 2}
+  mvAvatarSpawnRoleCreatorPrefab: {fileID: 114590682221964189, guid: 9dfc9ac5ceb62c3458498d45c833f99e, type: 2}
+  mvHamsterWheelPrefab: {fileID: 114892247254417086, guid: 23b276c4e67cd4541b9acfd0f03f57e5, type: 2}
+  mvHoverCraftPrefab: {fileID: 114573302465013754, guid: 441d97fe5cb95dc4b965888f9b2c3276, type: 2}
+  collectTheItemDropOff: {fileID: 114586274265128856, guid: 2a04c431aaf349046b14a8f91d045e59, type: 2}
+  collectTheItemCollectable: {fileID: 114941621949903663, guid: ad8bb010ffd9c60419301a4c0ec19d66, type: 2}
+  collectTheItem: {fileID: 114816570419215784, guid: 0f591785bf647c44081274016f7e6656, type: 2}
+  collectTheItemDropOffArrow: {fileID: 114747400231438519, guid: 0036ae47f403c1841878c08c65ba879f, type: 2}
+  mvJetPackPrefab: {fileID: 114646124381857514, guid: 50ae8c11097a01c488832566f4f15409, type: 2}
+  mvJetPackDeluxePrefab: {fileID: 114883155016158880, guid: b422dfcd68b74a24bbfa3f071e612374, type: 2}
+  mvBatteryPrefab: {fileID: 114491560995923425, guid: 8d4f3e07de9141f43a2a6dc5191994e6, type: 2}
+  mvCameraSettingsPrefab: {fileID: 114334280002609433, guid: 167d65dd064cbc9439dfe0fc1fdd3a87, type: 2}
+  mvCollectiblePrefab: {fileID: 114328117560280907, guid: 492aff624add7cf4db0339ef4dfacfda, type: 2}
+  mvCollectibleFantaPrefab: {fileID: 0}
+  mvCheckpointPrefab: {fileID: 114143866474881499, guid: 0c4b2999411b47942a0145378d90a3b0, type: 2}
+  mvExplosivesPrefab: {fileID: 114338795336305002, guid: b6087afab56a33f408cdbebe620cfd46, type: 2}
+  mvFlagPrefab: {fileID: 114520750121571645, guid: 2a9e4b9d9c322774ebf26bdcee56298c, type: 2}
+  mvGameCoinChestPrefab: {fileID: 114973702600347767, guid: 5bfd439783176c64e9087a39bc164c6f, type: 2}
+  mvGameCoinPrefab: {fileID: 114240788588969573, guid: dbc09026333a427449b769196fa2df9b, type: 2}
+  mvGhostPrefab: {fileID: 1054510569665337, guid: 63d2af938ed2dda4e8eb059e80a9403d, type: 2}
+  mvGoalPrefab: {fileID: 114775506115635971, guid: 0a9750cf78fd64e44a44a05bb9a8725c, type: 2}
+  mvGhostInstancePrefab: {fileID: 1054510569665337, guid: 63d2af938ed2dda4e8eb059e80a9403d, type: 2}
+  mvGravityCubePrefab: {fileID: 114915058774218113, guid: b1305f81fa7718a4a96a01f663a037d3, type: 2}
+  mvNegatePrefab: {fileID: 114660432648165055, guid: 4e23147a45901774ca8564e14dcdf161, type: 2}
+  mvPointLightPrefab: {fileID: 114896649735211038, guid: ae7b47f611e45534abe40bb8afe9a805, type: 2}
+  mvPressurePlatePrefab: {fileID: 114883286173655592, guid: 3b3f271569150044eb12eb3ec0668992, type: 2}
+  mvPulseBoxPrefab: {fileID: 114223186355419945, guid: b031af9afe8ad2040a86a5f04a3b6706, type: 2}
+  mvRandomBoxPrefab: {fileID: 114536905885102501, guid: 415e91d85378875428ba381f876896b3, type: 2}
+  mvRoundCubePrefab: {fileID: 114089725817278764, guid: 8ba4aab349c7e0b449f50f713edd28b3, type: 2}
+  mvSkyboxPrefab: {fileID: 114456213281717942, guid: d27e0dbd9e006a64bb37d3ca53bb70d5, type: 2}
+  mvSmokePrefab: {fileID: 114570732651341038, guid: 287eeb329c85aa54195b4103d5a2c893, type: 2}
+  mvSoundEmitterPrefab: {fileID: 114099157237953397, guid: 9a7c0984937757c48bd02ecac7073af0, type: 2}
+  mvGloablSoundEmitterPrefab: {fileID: 114675443638074329, guid: cc11851b095a8b94d837e4d2b36ea280, type: 2}
+  mvSpawnPointBluePrefab: {fileID: 114006038343047943, guid: 5e080b44058bce543b50eabaea09a450, type: 2}
+  mvSpawnPointGreenPrefab: {fileID: 114660785450843789, guid: f315645db8863ab408b225a92761f77e, type: 2}
+  mvSpawnPointRedPrefab: {fileID: 114182809573023717, guid: 0450481c951a8984692407f3768ee40a, type: 2}
+  mvSpawnPointYellowPrefab: {fileID: 114309132489237380, guid: 17a582b9b1f891b4e960ec986d35298c, type: 2}
+  mvTextMsgPrefab: {fileID: 114407774013939875, guid: 19c47ca643c71504c90a53c07b5b8ef4, type: 2}
+  mvTimeTriggerPrefab: {fileID: 114447125709197964, guid: 506c08ae2c5bf06408783ac6f04e80e1, type: 2}
+  mvToggleBoxPrefab: {fileID: 114426960978234699, guid: 09ef52744149408438181e3311216a12, type: 2}
+  mvTriggerBoxPrefab: {fileID: 114731620647468223, guid: cb5f64c51ac9f2040b1ff2cdac79acbe, type: 2}
+  mvMovingPlatformGroupPrefab: {fileID: 1855310336167614, guid: a940f4a6a66f0184d828db6af6ee4bb4, type: 2}
+  mvMovingPlatformNodePrefab: {fileID: 1658727181758861, guid: d5630485b82ad054f837dc3dfed6c61f, type: 2}
+  mvObjectEnablerPrefab: {fileID: 114735798515518074, guid: f5d4ae3a7b6c41e4fbf5ef48d70deae8, type: 2}
+  mvKillLimitPrefab: {fileID: 114318967020664702, guid: 0c52fed41f91d3c418558a253c58e3da, type: 2}
+  mvOculusKillLimitPrefab: {fileID: 114037625351317852, guid: 9c3232b97de9cb548919c53e1ba43e79, type: 2}
+  mvSentryGunPrefab: {fileID: 114344605423951917, guid: ae1673ff1ea22de468f842c7f37b5550, type: 2}
+  shootableButtonPrefab: {fileID: 114825231771763455, guid: c708d9d1a72dce04b9a292f9668e039a, type: 2}
+  mvTeleportGroupPrefab: {fileID: 1094944746949231, guid: 759cd29d0d70a214b9569ffdf33c3936, type: 2}
+  mvTeleporterPrefab: {fileID: 114615539086222076, guid: 2e98dea86f9d6c74887362b0cb723704, type: 2}
+  useLeverPrefab: {fileID: 114370707472503098, guid: 1041f59a2c6be9b4db3d7989b7650834, type: 2}
+  mvWaterPlanePrefab: {fileID: 114765385873008134, guid: a767548a0c13d544c9d5350165ccdfd4, type: 2}
+  windTurbinePrefab: {fileID: 114638591978552817, guid: d82b0da647f98ca44b16282920fb98a3, type: 2}
+  mvCountingCubePrefab: {fileID: 114737442827969756, guid: 803dba11e69db6a489b7599563f78192, type: 2}
+  teleportAvatarPrefab: {fileID: 114291842427310730, guid: 2c12d6672db1d694eb0a84eac4f10bcd, type: 2}
+  spawnerObject: {fileID: 114181272388907702, guid: 56d39a683a30d6049980c92988cc1c6f, type: 2}
+  timeAttackFlagPrefab: {fileID: 114482982550600745, guid: a550734b3874ec34a85cb1654d79e8fc, type: 2}
+  gamePointPrefab: {fileID: 114657044477806587, guid: 990a7090997c4604eabcc3ca807eb2ea, type: 2}
+  triggerCubePrefab: {fileID: 114340254861317763, guid: 989cc59da964e1f499c45e1e680caf8f, type: 2}
+  teamEditorPrefab: {fileID: 114219831743888351, guid: 78fbba3f10251814c807f2ef50bb6e1b, type: 2}
+  gamePointChestPrefab: {fileID: 114951158729384916, guid: b8292bda0dccc1e46aa724cb233a28df, type: 2}
+  vehicleEnergyPrefab: {fileID: 114079830117752956, guid: 854010cce72589f46b70f23864686aab, type: 2}
+  doorPrefab: {fileID: 114056922748433959, guid: c44774386d7853b4991db2e55bd10031, type: 2}
+  mvObjectTransparencyPrefab: {fileID: 114942571668974081, guid: 88423bc4d46c1dc4cac2de842a059f94, type: 2}
+  muzzleEditNodePrefab: {fileID: 1297766107347801, guid: cdc6f8c551edd8644ab860ef0ffedb98, type: 2}
+  ghostMarkerMaterial: {fileID: 2100000, guid: 1cc8a7b95f7588543ba42f5753021dc6, type: 2}
+  objectHiddenMaterial: {fileID: 2100000, guid: 88e06adb71479ec459ad2b1c3a0dee8b, type: 2}
+  iceBeamObject: {fileID: 114866253478942426, guid: 359dd71392319754e9647826b42fc5d0, type: 2}
+  fireBeamObject: {fileID: 114244628368107428, guid: fd9879fad8f6b3043b74a415dc7fd11e, type: 2}
+  starDisplayPrefab: {fileID: 114522479515801935, guid: 0f8ccbb8cb5c2524c9496a57077c2010, type: 2}
+  rewardedAdDisplayPrefab: {fileID: 114835202662463768, guid: 66f530ebe6f426140be8446352ccc558, type: 2}
+  levelDisplayPrefab: {fileID: 114476382730391423, guid: 4945b27b118b5c942b9010035c386089, type: 2}
+  gameRankDisplayPrefab: {fileID: 114929004930808933, guid: 92e40804ef8b4f54296d639439bd8bb7, type: 2}
+  gameCoinDisplayPrefab: {fileID: 114770846139572071, guid: d6133d67ccea71d43bcffbbe12841028, type: 2}
+  cubeModelChunkPrefab: {fileID: 114655257275870230, guid: dc701f1f50ef31347a180a7a17a97f8d, type: 2}
+  blinkerDefaultMaterial: {fileID: 2100000, guid: c3d7ebe6fde40b24fa0a8304d4be2bb0, type: 2}
+  avatarCenterGunPrefab: {fileID: 114893361619986212, guid: 4494894c7bfbb2241ba9328e77b2403b, type: 2}
+  avatarImpulseGunPrefab: {fileID: 114620101779140441, guid: c12602529e6f4f04da93deda74ae066a, type: 2}
+  avatarHealthPrefab: {fileID: 114337312124428781, guid: 21202c203cfacdc43a9a9cb9e41827a1, type: 2}
+  avatarBazookaPrefab: {fileID: 114495519633624005, guid: e441ad84c3bcb9b45826bc24de4b0c40, type: 2}
+  avatarRailGunPrefab: {fileID: 114747359439496700, guid: 2a943b33c44aa7142801434e935aaf58, type: 2}
+  avatarMutantPrefab: {fileID: 114879262071767071, guid: 98a02fcb8feee9b47aeff6bbd6b735ce, type: 2}
+  avatarSwordPrefab: {fileID: 114789931617726841, guid: fd43847f24758d941a55138b18f201b4, type: 2}
+  avatarMeleeWeaponPrefab: {fileID: 114915687225099221, guid: 1e36c5dfd4971b84ea5df3046bc36139, type: 2}
+  avatarShotgunPrefab: {fileID: 114897047875058309, guid: a8e9acdcb0a6d3341a09fa92592838a5, type: 2}
+  avatarFlamethrowerPrefab: {fileID: 114267057715156976, guid: e158fcdabf57c68409467116581aa94c, type: 2}
+  avatarCubeGunPrefab: {fileID: 114670471949502950, guid: a95be6e972f22fc4fa91cbf529f7d048, type: 2}
+  avatarNinjaRunPrefab: {fileID: 114187486907514807, guid: e95caa782a549a845938e647339b0e5f, type: 2}
+  avatarSixShooterPrefab: {fileID: 114758953312440624, guid: 70413d476dd565340aae94975a02b9f0, type: 2}
+  avatarDoubleSixShooterPrefab: {fileID: 114680717843074825, guid: ed6a0550d5d1dfc45b85416bf2161c6c, type: 2}
+  avatarThrowingStarPrefab: {fileID: 114160047306599776, guid: 47d85b23cb75490448bad641a13a51df, type: 2}
+  avatarMultiThrowingStarPrefab: {fileID: 114412294042498529, guid: 9e20c7e58183e204997b6e598ed19ed0, type: 2}
+  avatarMouseGunPrefab: {fileID: 114879092683400032, guid: b83c105f2cf6d724b90d22a1940c56b8, type: 2}
+  avatarGrowthGunPrefab: {fileID: 114397513413123197, guid: d24cd3be4ebe9894cb99d0fb90c32b6c, type: 2}
+  avatarMousePackPrefab: {fileID: 114047024428012036, guid: 8fd1fffbca4fc9349bf2c59d6d742bee, type: 2}
+  avatarGrowthPackPrefab: {fileID: 114362462134403711, guid: 2452cd8b4c53b304e9e2a9f19278f0bf, type: 2}
+  avatarHealRayPrefab: {fileID: 114258211281927118, guid: 96f3e421347ec9b47b261eb7023554e3, type: 2}
+  avatarCostumePrefab: {fileID: 114239019727787419, guid: 8c7fa8636702dd04dab6a5e5aadfa6a4, type: 2}
+  avatarCustomGunPrefab: {fileID: 114669687418909799, guid: 0c2c9a0dc5f45cd47b2ffe917c65eb46, type: 2}
+  avatarItemCenterGun: {fileID: 1210730250770609, guid: 5d5907230f3a3f340ad0f29a6f6d32d9, type: 2}
+  avatarItemImpulseGun: {fileID: 1889169780033544, guid: 2ca477590e2f00d488252bdb47998314, type: 2}
+  avatarItemLaserPointer: {fileID: 1927434919284557, guid: ee3e2cf8c72cca44d83c080c74a17cef, type: 2}
+  avatarItemBazooka: {fileID: 1097882816080077, guid: 205e397bbac443740b7d8d2f1b02b2d2, type: 2}
+  avatarItemHand: {fileID: 1503518985758019, guid: 3bfc1e085d7b88d4aa9943a5f10164de, type: 2}
+  avatarItemRailGun: {fileID: 1324599036866789, guid: d03f33cba7be59b42b502e10ec22bdf1, type: 2}
+  avatarItemSword: {fileID: 1677029957198583, guid: dcd9f7972d04193408d39768711e8948, type: 2}
+  avatarItemMeleeWeapon: {fileID: 1711841882598953, guid: 7f05582f85d116841ac30833ef347f61, type: 2}
+  avatarItemShotgun: {fileID: 1082930443451024, guid: c57d1fd13effc204b862ef72592f58e7, type: 2}
+  avatarItemFlamethrower: {fileID: 1370357718264850, guid: 000de22e991c36f4a8eed3f9a4b976b1, type: 2}
+  avatarItemCubeGun: {fileID: 1965250385905530, guid: f637ba8117272174fbfc990eefb68abd, type: 2}
+  avatarItemSixShooter: {fileID: 1392632363456768, guid: 82f2c77c61e05e74aabddaded13cab43, type: 2}
+  avatarItemDoubleSixShooter: {fileID: 1557657667576960, guid: 955b98cd38acab544804ffb7314f5d1f, type: 2}
+  avatarItemThrowingStar: {fileID: 1305968786529099, guid: 083f1fa66a4c8a147b494b8c2fbf71cb, type: 2}
+  avatarItemMultiThrowingStar: {fileID: 1119033681580707, guid: de7f8c20f978d6c4cbcaaa95dffb614d, type: 2}
+  avatarItemGrowthGun: {fileID: 1410388706765311, guid: 4a883777bc985dd4d8c3584f0afc01a8, type: 2}
+  avatarItemMouseGun: {fileID: 1371315423910158, guid: 9c6519af62a3f2241bef0241b72ec001, type: 2}
+  avatarItemSlapGun: {fileID: 1208447825573145, guid: 178b67dd6ae013e4d98fc445c8b48fa0, type: 2}
+  avatarItemCollectTheItem: {fileID: 1820149684120920, guid: 3be0fdec862642047b48eb98f0d739fc, type: 2}
+  avatarItemHealRay: {fileID: 1255554547886262, guid: 33587b8f17a9f7547a207bac69766f43, type: 2}
+  avatarItemCostume: {fileID: 1649452894463936, guid: 9d434ad13405cfd438710ce90c820567, type: 2}
+  avatarItemCustomGun: {fileID: 1905700705067132, guid: 7dfcdcc393657cb4da178eb8cfc12d37, type: 2}
+  shieldModifier: {fileID: 114424483810830962, guid: 2f3ef4fc58a5515468e6a191b0708a18, type: 2}
+  particleCFX_GroundAura: {fileID: 1520866511694843, guid: fca0cc4bbd191ad4989f0acb5e89f5e4, type: 2}
+  particleCubeDust: {fileID: 198194666879671750, guid: 697e5ae9bba2e6f458d4b6db8f5b903f, type: 2}
+  particleCubeDustDestroyed: {fileID: 198354383352755763, guid: 4a7f39afb9ec5b344a62c70c0a083e33, type: 2}
+  particleExplosion: {fileID: 198515590822425047, guid: 3e6d093493d095843af5c0ab632c7fe0, type: 2}
+  particleFluffySmoke: {fileID: 198932547880168448, guid: e8782108ea9d7bf4dbb78dd57eb53383, type: 2}
+  goldExplosion: {fileID: 198316215096782074, guid: c7f6920b236af8042aeb4f3258517686, type: 2}
+  poisonParticles: {fileID: 198280729545551238, guid: de7391e333a7cd8408d5e8effe376c57, type: 2}
+  collectTheItemParticles: {fileID: 198856116096731997, guid: 3fcd5fec53d6e44498c903050588fe1d, type: 2}
+  healingParticles: {fileID: 198544563134591018, guid: 22563470457dc9a4a9f75641d2d5eb62, type: 2}
+  logicInputConnectorPrefab: {fileID: 1197481613032673, guid: 94970314353bdbf499f32852ce142d33, type: 2}
+  logicOutputConnectorPrefab: {fileID: 1074825661883789, guid: 3854fb6812195b74f88e6e7a64fff605, type: 2}
+  logicObjectConnectorPrefab: {fileID: 1416469489359431, guid: 3cb1263328bb8b045ab03c71cfec72f6, type: 2}
+  linkObject: {fileID: 114693640692815269, guid: 043c004790895d54293415739192a403, type: 2}
+  objectLinkObject: {fileID: 114924848039778149, guid: 52410713d27f02945922666d897fcc4c, type: 2}
+  logicCubeConnectorRedMaterial: {fileID: 2100000, guid: a4cc9ad02a6671347a3182cd3331e184, type: 2}
+  logicCubeConnectorRedSelectedMaterial: {fileID: 2100000, guid: 7ca6d33c4734b0744bace514a83068ab, type: 2}
+  logicCubeConnectorBlueMaterial: {fileID: 2100000, guid: 1fa36b7e6dbee0745be98d0265a8dc5a, type: 2}
+  logicCubeConnectorBlueSelectedMaterial: {fileID: 2100000, guid: 5c56adb777e85334db679dcf049b5754, type: 2}
+  avatarAccessoryMoveIcon: {fileID: 2800000, guid: 42e3a70f074c3224eb971235bc239a08, type: 3}
+  drawPlaneObject: {fileID: 1273668316478781, guid: 412bf76177064a143ae71062b795dfb2, type: 2}
+  modelConstraintsMaterial: {fileID: 2100000, guid: 7d340477200e3ce4aa0b2cffa90e2b45, type: 2}
+  avatarInputControllerTouchSettings: {fileID: 114169520021524391, guid: a193c63e450ab42469842ba099dd7fca, type: 2}
+  crosshairCursor: {fileID: 2800000, guid: a01f7566eb61fe14783211193c24ad40, type: 3}
+  materialButtonTextureGenerator: {fileID: 114943270500119903, guid: c4138dfaa6b51c442ad801839575b881, type: 2}
+  insertCursor: {fileID: 114421773016047893, guid: b054f8af100842c4a8991eba810f1869, type: 2}
+  chatBubble: {fileID: 114559726391307971, guid: 7dfc3bdfa4f9a504781fd72359883077, type: 2}
+  roundedRectangleMaterial: {fileID: 2100000, guid: 7dd714ed216ae594b8371408e3e80e95, type: 2}
+  editCornerHelpText: {fileID: 0}
+  editEdgeHelpText: {fileID: 0}
+  editFaceHelpText: {fileID: 0}
+  cellCursorErrorMaterial: {fileID: 2100000, guid: e61fbf0b02869eb4aa60108e4ab0e42b, type: 2}
+  cellCursorMaterial: {fileID: 2100000, guid: 9e62642ee197ff64fba08a31b1a3efaa, type: 2}
+  modelCubeSpaceMaterial: {fileID: 2100000, guid: 6afb1818195983449b236be9336e8721, type: 2}
+  cursor2dEdgeMaterial: {fileID: 2100000, guid: b4752cb4199bb104391869ec1a7c92be, type: 2}
+  cursor2dCornerMaterial: {fileID: 2100000, guid: 3233a95e17d59fc429635760e6912c52, type: 2}
+  cursorMaterial: {fileID: 2100000, guid: 103edf538507a6a41a348ac0ecdae27e, type: 2}
+  cursorCornerMaterial: {fileID: 2100000, guid: 97d10bf63641f29498a551fc02af74d5, type: 2}
+  cursorNoneMaterial: {fileID: 2100000, guid: 693665d43fd19f54ebfcdd84b2c372e9, type: 2}
+  insertPreviewMaterial: {fileID: 2100000, guid: bd88bfaabe085094aae871a5ee9b23b1, type: 2}
+  previewBoxMaterial: {fileID: 2100000, guid: 4f33b9033739d44458286cd841f6f092, type: 2}
+  selectBoxMaterial: {fileID: 2100000, guid: 7489312648e22704fbf8b365c84a35a5, type: 2}
+  rangeVisualizationObject: {fileID: 114473877165175725, guid: 6780dde1a8ba8174b9c5007cc7b97b34, type: 2}
+  lineRangeIndicator: {fileID: 114627131824082535, guid: fae9f0aae68587645849ef405aaf63c9, type: 2}
+  ghostEditorIconObject: {fileID: 114729879847727862, guid: e29f304197114604a966500392b0757c, type: 2}
+  indentMaterial: {fileID: 2100000, guid: 1b68e1e0d0391aa46aa27dfca70ad73b, type: 2}
+  transformGizmo: {fileID: 114433949076449643, guid: 779bd4e4d2a72134992dff0ef13b8cf7, type: 2}
+  touchDetectionHandlerPrefab: {fileID: 1491492393481775, guid: b3fbd2faae3dde94bb6bf559640f22d9, type: 2}
+--- !u!114 &114292914890138106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434382359942828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffe4a639b035d0831b9bf182d4659f4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pool:
+  - prefab: {fileID: 114355129420286552, guid: 7e4e6d07510e4d04e8f376e65c22b4e0, type: 2}
+    poolSize: 70
+    poolEnum: 0
+  - prefab: {fileID: 114015527503273628, guid: a0a2d71cb42359a42843365796764f83, type: 2}
+    poolSize: 20
+    poolEnum: 1
+  - prefab: {fileID: 114040383901172972, guid: 536be52c568a7e84fad1c542cff8f7db, type: 2}
+    poolSize: 30
+    poolEnum: 2
+  - prefab: {fileID: 114145767964851486, guid: 5501fa6909340a949bb4f739baa66377, type: 2}
+    poolSize: 20
+    poolEnum: 3
+  - prefab: {fileID: 114163868266386487, guid: 77ba215ca592ecf499bab9921f294aa1, type: 2}
+    poolSize: 30
+    poolEnum: 4
+  - prefab: {fileID: 114819647548965408, guid: 2d33f8d2c43314842b79da8452d2b383, type: 2}
+    poolSize: 40
+    poolEnum: 5
+  - prefab: {fileID: 114867187539615899, guid: 119f3f4fd3bf79b4a805c4191b9ce6bc, type: 2}
+    poolSize: 50
+    poolEnum: 6
+  - prefab: {fileID: 114905929410815538, guid: da097a7a5dce7e443a2d1b333fb2c4cf, type: 2}
+    poolSize: 10
+    poolEnum: 7
+  - prefab: {fileID: 114994199731714263, guid: 2c5ada244e86a0a4588e55d5a6ea7162, type: 2}
+    poolSize: 10
+    poolEnum: 8
+  - prefab: {fileID: 114435244064110325, guid: 7be833a708a473148abeb56ee7c200ef, type: 2}
+    poolSize: 30
+    poolEnum: 9
+  - prefab: {fileID: 114892620157512455, guid: 5886fd4581cd7e14da6779959e0fab52, type: 2}
+    poolSize: 30
+    poolEnum: 10
+  - prefab: {fileID: 114768759018874136, guid: c875eebd62391ac41a6fd667e10c1292, type: 2}
+    poolSize: 20
+    poolEnum: 11
+  - prefab: {fileID: 114017045846815604, guid: e11a9401fae67fd4997972df6338f7f2, type: 2}
+    poolSize: 20
+    poolEnum: 12
+  - prefab: {fileID: 114272571403988980, guid: a668a5aa36cf3e747b0bbfb4d9744c49, type: 2}
+    poolSize: 30
+    poolEnum: 13
+  - prefab: {fileID: 114351733091364218, guid: 4cfdec46eb8fdc54baa59e40518c1db2, type: 2}
+    poolSize: 30
+    poolEnum: 14
+  - prefab: {fileID: 114826151927183908, guid: 076d81a1f60801d4f90bcf775194d7cc, type: 2}
+    poolSize: 12
+    poolEnum: 15
+  - prefab: {fileID: 114522501042281254, guid: 8629140f32251bf428b0d7825c5c921a, type: 2}
+    poolSize: 4
+    poolEnum: 16
+  - prefab: {fileID: 114676901652157388, guid: ac2fa7e178ec2b145860a3427943c8c2, type: 2}
+    poolSize: 8
+    poolEnum: 17
+  - prefab: {fileID: 114733210801736967, guid: 1ae4ff1707111404597578f98248d805, type: 2}
+    poolSize: 3
+    poolEnum: 18
+  - prefab: {fileID: 114952040045282400, guid: 31844e2bf767e4c4d91f8553b2d0ddf9, type: 2}
+    poolSize: 10
+    poolEnum: 19
+  - prefab: {fileID: 114050621011480960, guid: 52e9ae26ee1ee1a41bdf166120ccb210, type: 2}
+    poolSize: 5
+    poolEnum: 20
+  - prefab: {fileID: 114172573684189209, guid: 99704b68457087043848533c11c8ca5c, type: 2}
+    poolSize: 4
+    poolEnum: 21
+  - prefab: {fileID: 114055735966949205, guid: 250db962d009db24785fbcfa51c90b42, type: 2}
+    poolSize: 100
+    poolEnum: 22
+  - prefab: {fileID: 114228142632677586, guid: ecf14a9e44e60d646984ef96a3ce7d22, type: 2}
+    poolSize: 15
+    poolEnum: 24
+  - prefab: {fileID: 114161428400747318, guid: 88ca4b8c80079db4dbc7024a4761b147, type: 2}
+    poolSize: 20
+    poolEnum: 25
+  - prefab: {fileID: 114090475865754655, guid: d95d2fb8c743ca04daaee677fad3948f, type: 2}
+    poolSize: 20
+    poolEnum: 26
+  - prefab: {fileID: 114245074881297618, guid: a696dd87c42c7994db3faff48f711786, type: 2}
+    poolSize: 20
+    poolEnum: 28
+  - prefab: {fileID: 114290050257468513, guid: ef9643b9665ecbc4ba95f6954e9fcc2e, type: 2}
+    poolSize: 20
+    poolEnum: 30
+  - prefab: {fileID: 114552143502095635, guid: b223b3652d6bda94ea54cdbf793d31a7, type: 2}
+    poolSize: 20
+    poolEnum: 31

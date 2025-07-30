@@ -1,0 +1,799 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1972289850609041
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224009899793113355}
+  - component: {fileID: 114864197197720866}
+  m_Layer: 0
+  m_Name: BoxSkull
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1905544867995486
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4299818802731960}
+  - component: {fileID: 108659196900883881}
+  - component: {fileID: 123154860946515984}
+  - component: {fileID: 114387291292534299}
+  - component: {fileID: 114395197169504742}
+  m_Layer: 0
+  m_Name: Sun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1230469264191402
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4863015544745761}
+  - component: {fileID: 108574646743468585}
+  - component: {fileID: 123509459531035363}
+  - component: {fileID: 114534757565871705}
+  - component: {fileID: 114490853118233488}
+  m_Layer: 0
+  m_Name: Moon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1748649189273760
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224254543430089470}
+  - component: {fileID: 114879488730815231}
+  - component: {fileID: 114437172232911284}
+  m_Layer: 0
+  m_Name: Skybox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1531857661917024
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224230799042707671}
+  - component: {fileID: 114984791573793789}
+  - component: {fileID: 114066990105326293}
+  - component: {fileID: 114654356274957227}
+  - component: {fileID: 114296887992924260}
+  - component: {fileID: 114338898308507731}
+  m_Layer: 0
+  m_Name: TextureStreams
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224009899793113355
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972289850609041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4299818802731960}
+  - {fileID: 4863015544745761}
+  - {fileID: 224254543430089470}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114864197197720866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972289850609041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ba48c4363a43ac359d583a08ef84bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  overrideSkyboxManager: 1
+  themeButtonImagePrefab: {fileID: 224145833178892076, guid: a357424bc58487347a66c0eaaadfcd5c, type: 2}
+  useDayNightCycle:
+    value: 1
+    name: Use day/night cycle
+    togglePrefab: {fileID: 114777722763718775, guid: 8b11e328cc99e7e42a701a3fadc509ae, type: 2}
+  useServerTime:
+    value: 0
+    name: Use server time
+    togglePrefab: {fileID: 114616472118462978, guid: 46860154b61744e4ba2b0dd7330b32d9, type: 2}
+  colorPreset:
+    value: 10
+    name: Color set
+    min: -2147483648
+    max: 2147483647
+    prefab: {fileID: 114161697898894474, guid: 58cc8f6e8a34cff40abbe788beec2330, type: 2}
+  gameStartTime:
+    value: 43.639027
+    name: Game start time
+    min: 0
+    max: 100
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  cycleLength:
+    value: 360.2827
+    name: Cycle length
+    min: 4
+    max: 1200
+    sliderPrefab: {fileID: 114124434383435592, guid: 1a2a08f4b71969446b7ee591725ac967, type: 2}
+  sunAltitude:
+    value: 44.67
+    name: Sun altitude
+    min: 0
+    max: 180
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunLongitude:
+    value: 0
+    name: Sun longitude
+    min: 0
+    max: 360
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonAltitude:
+    value: 45
+    name: Moon altitude
+    min: 0
+    max: 180
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonLongitude:
+    value: 0
+    name: Moon longitude
+    min: 0
+    max: 360
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  topColor:
+    value: {r: 0.84, g: 0.68, b: 0.58, a: 1}
+    name: Upper color
+    prefab: {fileID: 114622224686683829, guid: 40da07908484f1d4b8c0dd1dbf80e074, type: 2}
+  bottomColor:
+    value: {r: 0.35, g: 0.16, b: 0.35999998, a: 1}
+    name: Bottom color
+    prefab: {fileID: 114622224686683829, guid: 40da07908484f1d4b8c0dd1dbf80e074, type: 2}
+  starsTint:
+    value: {r: 0.85999995, g: 0.65, b: 0.48, a: 1}
+    name: Stars tint
+    prefab: {fileID: 114456731342166572, guid: 4b09cc13ac298a14db69e3447a98c3c5, type: 2}
+  starsExtinction:
+    value: 10
+    name: Stars brightness
+    min: 0
+    max: 10
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  starsTwinkilingSpeed:
+    value: 0
+    name: Stars twinkling speed
+    min: 0
+    max: 24
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunTint:
+    value: {r: 1, g: 0.68, b: 0.39999998, a: 1}
+    name: Sun tint
+    prefab: {fileID: 114456731342166572, guid: 4b09cc13ac298a14db69e3447a98c3c5, type: 2}
+  sunSize:
+    value: 1
+    name: Sun size
+    min: 0.1
+    max: 3
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunHeight:
+    value: 0.44786656
+    name: Sun height
+    min: -1
+    max: 1
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunAxis:
+    value: 0
+    name: Sun axis
+    min: 0
+    max: 360
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunLightContrast:
+    value: 0.5
+    name: Sun light contrast
+    min: 0
+    max: 1
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunLightIntensity:
+    value: 1.2246412
+    name: Sun light intensity
+    min: 0
+    max: 8
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  sunFlareBrightness:
+    value: 1.0144234
+    name: Sun flare brightness
+    min: 0.01
+    max: 2
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonTint:
+    value: {r: 0.72999996, g: 0.82, b: 0.61, a: 1}
+    name: Moon tint
+    prefab: {fileID: 114456731342166572, guid: 4b09cc13ac298a14db69e3447a98c3c5, type: 2}
+  moonSize:
+    value: 1
+    name: Moon size
+    min: 0.1
+    max: 3
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonHeight:
+    value: -1
+    name: Moon height
+    min: -1
+    max: 1
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonAxis:
+    value: 0
+    name: Moon axis
+    min: 0
+    max: 360
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonLightContrast:
+    value: 0.5
+    name: Moon light contrast
+    min: 0
+    max: 1
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonLightIntensity:
+    value: 0.32277057
+    name: Moon light intensity
+    min: 0
+    max: 8
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  moonFlareBrightness:
+    value: 0.3488785
+    name: Moon flare brightness
+    min: 0.01
+    max: 2
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  cloudsHeight:
+    value: 0.26979232
+    name: Clouds height
+    min: -0.75
+    max: 0.75
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  cloudsOffset:
+    value: 0.2
+    name: Clouds offset
+    min: 0
+    max: 1
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  cloudsRotationSpeed:
+    value: 1
+    name: Clouds rotation speed
+    min: -50
+    max: 50
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  useFog:
+    value: 0
+    name: Fog
+    togglePrefab: {fileID: 114777722763718775, guid: 8b11e328cc99e7e42a701a3fadc509ae, type: 2}
+  fogDensity:
+    value: 0.04516717
+    name: Fog density
+    min: 0.0005
+    max: 0.25
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  exposure:
+    value: 0.99231166
+    name: Exposure
+    min: 0
+    max: 3
+    sliderPrefab: {fileID: 114478865437899516, guid: 26578dfbe1bbcb549a6c604074c71822, type: 2}
+  skybox: {fileID: 114879488730815231}
+  dayNightCycle: {fileID: 114437172232911284}
+  cycleControllerPrefab: {fileID: 114747835135769071, guid: d5ba7fc8bc103684b9f506a1f40d2da7, type: 2}
+  identifier: BoxSkull
+  displayName: _("Skull Theme 01")
+  description: _("A sky theme in the name of skulls with a boxy look")
+--- !u!4 &4299818802731960
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905544867995486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 224009899793113355}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!108 &108659196900883881
+Light:
+  serializedVersion: 10
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905544867995486}
+  m_Enabled: 1
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  m_Intensity: 0
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.6
+    m_Bias: 0.079
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294959103
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!123 &123154860946515984
+LensFlare:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905544867995486}
+  m_Enabled: 0
+  m_Flare: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Brightness: 0
+  m_FadeSpeed: 3
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 6
+  m_Directional: 1
+--- !u!114 &114387291292534299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905544867995486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db010f5a0bf76d779423b6b272ea8a45, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  light: {fileID: 108659196900883881}
+  lensFlare: {fileID: 123154860946515984}
+--- !u!114 &114395197169504742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905544867995486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0ccd2326b5b086bcbc930d7ab2b53e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/box_skull/sunflare.unity3d
+  useCache: 0
+  excludeWebGL: 1
+  lensFlare: {fileID: 123154860946515984}
+--- !u!4 &4863015544745761
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230469264191402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 224009899793113355}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!108 &108574646743468585
+Light:
+  serializedVersion: 10
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230469264191402}
+  m_Enabled: 1
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  m_Intensity: 0
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.6
+    m_Bias: 0.079
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294959103
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!123 &123509459531035363
+LensFlare:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230469264191402}
+  m_Enabled: 0
+  m_Flare: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Brightness: 0
+  m_FadeSpeed: 3
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 6
+  m_Directional: 1
+--- !u!114 &114534757565871705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230469264191402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db010f5a0bf76d779423b6b272ea8a45, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  light: {fileID: 108574646743468585}
+  lensFlare: {fileID: 123509459531035363}
+--- !u!114 &114490853118233488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230469264191402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0ccd2326b5b086bcbc930d7ab2b53e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/box_skull/moonflare.unity3d
+  useCache: 0
+  excludeWebGL: 1
+  lensFlare: {fileID: 123509459531035363}
+--- !u!224 &224254543430089470
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748649189273760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 224230799042707671}
+  m_Father: {fileID: 224009899793113355}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114879488730815231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748649189273760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bd4317dde454580d52da8f0daf2e0f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  skyboxMaterialSerialized:
+    skyboxMaterialAndroid: {fileID: 2100000, guid: 29e5fa231b335964e8afe0a4c78611df, type: 2}
+    skyboxMaterialStandalone: {fileID: 2100000, guid: be845b486b912704383cdabd1e39a11c, type: 2}
+    skyboxMaterialWebGL: {fileID: 2100000, guid: 8cf0df2312a0f96448d39ea72f881ea2, type: 2}
+  _topColor: {r: 0.247, g: 0.318, b: 0.561, a: 1}
+  _bottomColor: {r: 0.773, g: 0.455, b: 0.682, a: 1}
+  fogEnabled: 1
+  fogDensity: 0.046
+  fogStartDist: 0.9
+  fogEndDist: 35
+  _starsTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _starsExtinction: 2
+  _starsTwinklingSpeed: 4
+  _sun: {fileID: 114387291292534299}
+  _sunTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _sunSize: 1
+  _sunFlareBrightness: 0.3
+  _sunLightContrast: 0.5
+  _sunLightIntensity: 1
+  _moon: {fileID: 114534757565871705}
+  _moonTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _moonSize: 1
+  _moonFlareBrightness: 0.3
+  _moonLightContrast: 0.5
+  _moonLightIntensity: 1
+  _cloudsHeight: 0
+  _cloudsOffset: 0.2
+  _cloudsRotationSpeed: 1
+  _exposure: 1
+  lightIntensityByEmitterHeight:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 6.0914035
+      outSlope: 6.0914035
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.15499875
+      value: 1
+      inSlope: 0.06401148
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114437172232911284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748649189273760}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d457a2d2d45359bc71aa5703d466d96, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _sunrise: 40
+  _sunset: 85
+  _sunAltitude: 44.67
+  _sunLongitude: 0
+  _sunOrbit: {x: -20, y: 200}
+  _moonrise: 90
+  _moonset: 22.5
+  _moonAltitude: 45
+  _moonLongitude: 0
+  _moonOrbit: {x: -20, y: 200}
+  skybox: {fileID: 114879488730815231}
+  colorPresets: {fileID: 11400000, guid: 0cf62c5596b4c0447ba5ff605ec28680, type: 2}
+--- !u!224 &224230799042707671
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531857661917024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 224254543430089470}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114984791573793789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531857661917024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cca349efd77909bf94eef7ec5d844bd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/box_skull/skybox_cloud_15.unity3d
+  useCache: 0
+  excludeWebGL: 0
+  shaderPropertyName: _CloudsTex
+  skybox: {fileID: 114879488730815231}
+--- !u!114 &114066990105326293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531857661917024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cca349efd77909bf94eef7ec5d844bd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/box_skull/sun_texture_10.unity3d
+  useCache: 0
+  excludeWebGL: 0
+  shaderPropertyName: _SunTex
+  skybox: {fileID: 114879488730815231}
+--- !u!114 &114654356274957227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531857661917024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cca349efd77909bf94eef7ec5d844bd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/box_skull/moon_texture_11.unity3d
+  useCache: 0
+  excludeWebGL: 0
+  shaderPropertyName: _MoonTex
+  skybox: {fileID: 114879488730815231}
+--- !u!114 &114296887992924260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531857661917024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cca349efd77909bf94eef7ec5d844bd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/box_skull/star_texture_06.unity3d
+  useCache: 0
+  excludeWebGL: 0
+  shaderPropertyName: _StarsTex
+  skybox: {fileID: 114879488730815231}
+--- !u!114 &114338898308507731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531857661917024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cca349efd77909bf94eef7ec5d844bd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  url: Themes/shared/starnoise.unity3d
+  useCache: 0
+  excludeWebGL: 0
+  shaderPropertyName: _StarsTwinklingTex
+  skybox: {fileID: 114879488730815231}

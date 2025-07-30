@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1587165350423996
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224874904076900929}
+  - component: {fileID: 114012545492274204}
+  m_Layer: 5
+  m_Name: InHouseRegisteredLooksData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224874904076900929
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587165350423996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114012545492274204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587165350423996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0268eeaac21e027f7aeda6d6e2420712, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  promotionData:
+  - promotionImage: {fileID: 114453215003181348, guid: f0f50c8168aa4e34f83db18ada455d19, type: 2}
+    promotionText: Earn more gold with Elite!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 1
+  - promotionImage: {fileID: 114264890824453959, guid: 822b5c2528cf2b3468c6ac35bb55fc6b, type: 2}
+    promotionText: Buy new accessories with Gold!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 0
+  - promotionImage: {fileID: 114007544307122117, guid: e18eacae24a779843af9df7b5a9f7213, type: 2}
+    promotionText: Get gold to change your Avatar!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 0
+  - promotionImage: {fileID: 114977980657090233, guid: 343a651c484eda34b9d85d1b579e7fb2, type: 2}
+    promotionText: Buy models to build your games!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 0
+  - promotionImage: {fileID: 114928950154001928, guid: ead222f1ca9e3c34eaedf869a8c719d3, type: 2}
+    promotionText: Elite games gets promoted!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 1
+  - promotionImage: {fileID: 114583737758242036, guid: 33d0f8e2063b4ef4394f3e94fbf4704f, type: 2}
+    promotionText: No ads with Elite subscription!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 1
+  - promotionImage: {fileID: 114731236788001175, guid: 73c297f5045cc654e8f7908d78bbbdfa, type: 2}
+    promotionText: Join the Elite!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 1

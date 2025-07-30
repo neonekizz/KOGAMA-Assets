@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Nighttime Water
+  m_Shader: {fileID: 4800000, guid: 6b3215d0e807c0846af2da9ef02ece33, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 928710600b5cbbd4aa1f7a748b1029b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Fresnel:
+        m_Texture: {fileID: 2800000, guid: 89552912269c9ad48b07b51503b0edf9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectiveColor:
+        m_Texture: {fileID: 2800000, guid: c8fdfd543b97d7b4abb6336a0383095e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _ReflDistort: 0.44
+      _RefrDistort: 0.4
+      _WaveScale: 0.063
+    m_Colors:
+      WaveSpeed: {r: 9, g: 4.5, b: -8, a: -3.5}
+      _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Fresnel_ST: {r: 1, g: 1, b: 0, a: 0}
+      _HorizonColor: {r: 0, g: 0.5019608, b: 0.8078432, a: 0.5882353}
+      _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
+      _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
+      _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
+      _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
+      _RefrColor: {r: 1, g: 0.039215688, b: 0.039215688, a: 1}
+      _RefractionTex_ST: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1970897215356550
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224464576651985074}
+  - component: {fileID: 114668721720665078}
+  m_Layer: 5
+  m_Name: InHouseTouristLooksData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224464576651985074
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970897215356550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114668721720665078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970897215356550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0268eeaac21e027f7aeda6d6e2420712, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  promotionData:
+  - promotionImage: {fileID: 114267861217046431, guid: 6bbe305cf48531444a8829a095007543, type: 2}
+    promotionText: Create Your Own Avatar!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 2
+  - promotionImage: {fileID: 114738356235839744, guid: 926b992cc350a6e4684603e4e1ab3046, type: 2}
+    promotionText: Build Your Own Games!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 1
+    promotionActionType: 2
+  - promotionImage: {fileID: 114134134664726921, guid: c9b1e45da78ee6048850acb7a8e4c8db, type: 2}
+    promotionText: Chat & Play With Friends!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 0
+    promotionActionType: 2
+  - promotionImage: {fileID: 114337233406952112, guid: d127f2af6acb72842af7b54e72f14d16, type: 2}
+    promotionText: Buy And Sell Models & Avatars!
+    validOnKogamaPortal: 1
+    validOnAnonymousExternalPortal: 0
+    promotionActionType: 2

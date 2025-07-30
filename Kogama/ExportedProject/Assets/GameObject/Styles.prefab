@@ -1,0 +1,695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1662046483319857
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4834288181340886}
+  - component: {fileID: 114736472099670050}
+  - component: {fileID: 82315580880609368}
+  - component: {fileID: 82731754725388886}
+  - component: {fileID: 82801186024398487}
+  m_Layer: 0
+  m_Name: Styles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4834288181340886
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662046483319857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 847.2823, y: 445.94073, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114736472099670050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662046483319857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e9494be893d337a2d16e9d7a520a268, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  buttonStyles:
+  - colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+      m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+      m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+      m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+      m_DisabledColor: {r: 0.78676474, g: 0.78676474, b: 0.78676474, a: 1}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    buttonStyle: 0
+  - colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+      m_HighlightedColor: {r: 0.8088235, g: 0.8088235, b: 0.8088235, a: 1}
+      m_PressedColor: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+      m_SelectedColor: {r: 0.8088235, g: 0.8088235, b: 0.8088235, a: 1}
+      m_DisabledColor: {r: 0.625, g: 0.55606616, b: 0.55606616, a: 1}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    buttonStyle: 1
+  - colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 0.278}
+      m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.27450982}
+      m_PressedColor: {r: 1, g: 1, b: 1, a: 0.4745098}
+      m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.27450982}
+      m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.184}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    buttonStyle: 2
+  - colorBlock:
+      m_NormalColor: {r: 0.019607844, g: 0.015686275, b: 0.08235294, a: 0.74509805}
+      m_HighlightedColor: {r: 0.06517917, g: 0.054512292, b: 0.23584908, a: 0.74509805}
+      m_PressedColor: {r: 0.019607844, g: 0.015686275, b: 0.6627451, a: 0.4745098}
+      m_SelectedColor: {r: 0.06666667, g: 0.05490196, b: 0.23529412, a: 0.74509805}
+      m_DisabledColor: {r: 0.62352943, g: 0.5568628, b: 0.5568628, a: 1}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    buttonStyle: 3
+  textStyles:
+  - textStyle: 1
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 33
+    fontStyle: 0
+    lineSpacing: 1
+  - textStyle: 0
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 33
+    fontStyle: 0
+    lineSpacing: 1
+  - textStyle: 2
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 32
+    fontStyle: 0
+    lineSpacing: 1
+  - textStyle: 3
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 50
+    fontStyle: 0
+    lineSpacing: 1
+  - textStyle: 4
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 12
+    fontStyle: 0
+    lineSpacing: 0.7
+  - textStyle: 5
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 20
+    fontStyle: 0
+    lineSpacing: 1
+  - textStyle: 6
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 14
+    fontStyle: 0
+    lineSpacing: 0.6
+  - textStyle: 7
+    font: {fileID: 12800000, guid: a5eb7c1f93af9724894cc5ca0b94c4a8, type: 3}
+    fontSize: 40
+    fontStyle: 0
+    lineSpacing: 0.6
+  - textStyle: 8
+    font: {fileID: 12800000, guid: a5eb7c1f93af9724894cc5ca0b94c4a8, type: 3}
+    fontSize: 72
+    fontStyle: 0
+    lineSpacing: 0.6
+  - textStyle: 9
+    font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    fontSize: 20
+    fontStyle: 3
+    lineSpacing: 1
+  colorStyles:
+  - colorStyle: 1
+    color: {r: 0.19215687, g: 0.23137255, b: 0.27058825, a: 1}
+  - colorStyle: 6
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - colorStyle: 7
+    color: {r: 0.9490196, g: 0.9372549, b: 0.9137255, a: 1}
+  - colorStyle: 8
+    color: {r: 0.1254902, g: 0.5019608, b: 0.7921569, a: 1}
+  - colorStyle: 9
+    color: {r: 0.92156863, g: 0.28235295, b: 0.13725491, a: 1}
+  - colorStyle: 10
+    color: {r: 0.9490196, g: 0.7137255, b: 0, a: 1}
+  - colorStyle: 11
+    color: {r: 0.4627451, g: 0.7294118, b: 0.043137256, a: 1}
+  - colorStyle: 13
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - colorStyle: 14
+    color: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 1}
+  - colorStyle: 15
+    color: {r: 0.011764706, g: 0.03529412, b: 0.0627451, a: 0.197}
+  - colorStyle: 16
+    color: {r: 0.011764706, g: 0.32156864, b: 0.41960785, a: 0.87058824}
+  - colorStyle: 17
+    color: {r: 0.003921569, g: 0.5058824, b: 0.972549, a: 1}
+  - colorStyle: 18
+    color: {r: 0.44766438, g: 0.4725346, b: 0.50735295, a: 1}
+  - colorStyle: 20
+    color: {r: 1, g: 1, b: 1, a: 0.27450982}
+  - colorStyle: 21
+    color: {r: 0.29500222, g: 0.6764706, b: 0, a: 1}
+  - colorStyle: 22
+    color: {r: 0.011764706, g: 0.03529412, b: 0.0627451, a: 0.6431373}
+  - colorStyle: 23
+    color: {r: 0.9490196, g: 0.9372549, b: 0.9137255, a: 1}
+  - colorStyle: 24
+    color: {r: 1, g: 0.90196085, b: 0.2901961, a: 1}
+  - colorStyle: 25
+    color: {r: 0.18039216, g: 0.4431373, b: 0.90196085, a: 1}
+  - colorStyle: 26
+    color: {r: 0.9490196, g: 0.9372549, b: 0.9137255, a: 1}
+  - colorStyle: 27
+    color: {r: 0.9490196, g: 0.9372549, b: 0.9137255, a: 0.5}
+  - colorStyle: 28
+    color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  - colorStyle: 29
+    color: {r: 0.20784314, g: 0.6313726, b: 0.019607844, a: 1}
+  - colorStyle: 30
+    color: {r: 0.6313726, g: 0.81960785, b: 0.12156863, a: 1}
+  - colorStyle: 31
+    color: {r: 0.6862745, g: 0.65882355, b: 0.6117647, a: 1}
+  - colorStyle: 32
+    color: {r: 0.7254902, g: 0.13725491, b: 0.8745098, a: 1}
+  - colorStyle: 33
+    color: {r: 0.39607844, g: 0.18431373, b: 0.4509804, a: 1}
+  - colorStyle: 34
+    color: {r: 0.84313726, g: 0.98039216, b: 0.4745098, a: 1}
+  - colorStyle: 35
+    color: {r: 0.8392157, g: 0.3882353, b: 0.9529412, a: 1}
+  - colorStyle: 36
+    color: {r: 1, g: 0.8666667, b: 0.12941177, a: 1}
+  - colorStyle: 37
+    color: {r: 0.4509804, g: 0.5921569, b: 0.07058824, a: 1}
+  - colorStyle: 38
+    color: {r: 0.9490196, g: 0.9372549, b: 0.9137255, a: 1}
+  - colorStyle: 39
+    color: {r: 0.9490196, g: 0.9372549, b: 0.9137255, a: 0.6509804}
+  - colorStyle: 40
+    color: {r: 0.5882353, g: 0.1882353, b: 0.09411765, a: 1}
+  - colorStyle: 41
+    color: {r: 0.023529414, g: 0.36078432, b: 0.49803925, a: 1}
+  - colorStyle: 42
+    color: {r: 0.6784314, g: 0.5137255, b: 0.011764706, a: 1}
+  - colorStyle: 43
+    color: {r: 0.2784314, g: 0.5372549, b: 0, a: 1}
+  - colorStyle: 44
+    color: {r: 0.5294118, g: 0.7372549, b: 0.007843138, a: 1}
+  - colorStyle: 45
+    color: {r: 0.92941177, g: 0.25882354, b: 0.023529412, a: 1}
+  - colorStyle: 46
+    color: {r: 0.78039217, g: 0.75686276, b: 0.7176471, a: 1}
+  - colorStyle: 47
+    color: {r: 0.2, g: 0.2, b: 0.2, a: 0.5019608}
+  - colorStyle: 48
+    color: {r: 0.9490196, g: 0.7137255, b: 0, a: 1}
+  - colorStyle: 49
+    color: {r: 0.7647059, g: 0.92156863, b: 0.023529412, a: 1}
+  - colorStyle: 50
+    color: {r: 0.98039216, g: 0.28627452, b: 0.14509805, a: 1}
+  - colorStyle: 51
+    color: {r: 0.14117648, g: 0.5176471, b: 0.8901961, a: 1}
+  - colorStyle: 52
+    color: {r: 1, g: 0.78431374, b: 0, a: 1}
+  - colorStyle: 53
+    color: {r: 0.45882353, g: 0.79607844, b: 0.023529412, a: 1}
+  - colorStyle: 54
+    color: {r: 0.7058824, g: 0.88235295, b: 0, a: 1}
+  - colorStyle: 55
+    color: {r: 0.96862745, g: 0.3254902, b: 0.1764706, a: 1}
+  - colorStyle: 56
+    color: {r: 0.78039217, g: 0.75686276, b: 0.7176471, a: 1}
+  - colorStyle: 57
+    color: {r: 0.78039217, g: 0.75686276, b: 0.7176471, a: 1}
+  - colorStyle: 58
+    color: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 0.5019608}
+  - colorStyle: 59
+    color: {r: 0.2, g: 0.2, b: 0.2, a: 0.9490196}
+  - colorStyle: 60
+    color: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
+  - colorStyle: 61
+    color: {r: 1, g: 0.8784314, b: 0.61960787, a: 1}
+  - colorStyle: 62
+    color: {r: 0.4627451, g: 0.7294118, b: 0.043137256, a: 1}
+  - colorStyle: 63
+    color: {r: 0.92156863, g: 0.28235295, b: 0.13725491, a: 1}
+  - colorStyle: 64
+    color: {r: 0.98039216, g: 0.78039217, b: 0.48235294, a: 1}
+  teamIconStyles:
+  - team: 0
+    sprite: {fileID: 21300000, guid: f9efe33db72360b4fadfb3d498b92ed3, type: 2}
+  - team: 1
+    sprite: {fileID: 21300000, guid: 2b27731189cee1846830cfed085e90ed, type: 2}
+  - team: 3
+    sprite: {fileID: 21300000, guid: 37e6e226c9b059b4699314bc7af1fe2e, type: 2}
+  - team: 2
+    sprite: {fileID: 21300000, guid: 3dbed982c015e8b418d2601c1692b349, type: 2}
+  - team: 5
+    sprite: {fileID: 21300000, guid: 6e3a78324c15d1b4bb103ba1a2164042, type: 2}
+  effectStyles:
+  - effectStyle: 0
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.259}
+    shadowEffectDistance: {x: 0.5, y: -0.5}
+    shadowUseGraphicAlpha: 1
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 1}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 1
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 1}
+  - effectStyle: 1
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.434}
+    shadowEffectDistance: {x: 1, y: -1}
+    shadowUseGraphicAlpha: 0
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.209}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 0
+    gradient: 1
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
+  - effectStyle: 2
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 0.5, y: -0.5}
+    shadowUseGraphicAlpha: 0
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.209}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 0
+    gradient: 1
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
+  - effectStyle: 3
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 0.5, y: -0.5}
+    shadowUseGraphicAlpha: 0
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.209}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 0
+    gradient: 1
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0.5147059, g: 0.5147059, b: 0.5147059, a: 1}
+  - effectStyle: 4
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 0.5, y: -0.5}
+    shadowUseGraphicAlpha: 0
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.209}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 0
+    gradient: 1
+    gradientTop: {r: 0.8588236, g: 0.8588236, b: 0.8588236, a: 1}
+    gradientBottom: {r: 1, g: 1, b: 1, a: 1}
+  - effectStyle: 5
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 0.5, y: -0.5}
+    shadowUseGraphicAlpha: 0
+    outline: 1
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.522}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 1
+    gradient: 1
+    gradientTop: {r: 1, g: 1, b: 1, a: 0.347}
+    gradientBottom: {r: 0.8588236, g: 0.8588236, b: 0.8588236, a: 1}
+  - effectStyle: 6
+    shadow: 1
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 1, y: -1}
+    shadowUseGraphicAlpha: 0
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.522}
+    outlineEffectDistance: {x: 0.5, y: -0.5}
+    outlineUseGraphicAlpha: 1
+    gradient: 1
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0.8588236, g: 0.8588236, b: 0.8588236, a: 1}
+  - effectStyle: 7
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 3, y: -3}
+    shadowUseGraphicAlpha: 0
+    outline: 1
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.516}
+    outlineEffectDistance: {x: 3, y: 3}
+    outlineUseGraphicAlpha: 1
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0.8588236, g: 0.8588236, b: 0.8588236, a: 1}
+  - effectStyle: 8
+    shadow: 0
+    shadowEffectColor: {r: 0, g: 0, b: 0, a: 0.284}
+    shadowEffectDistance: {x: 1, y: -1}
+    shadowUseGraphicAlpha: 0
+    outline: 0
+    outlineEffectColor: {r: 0, g: 0, b: 0, a: 0.522}
+    outlineEffectDistance: {x: 1, y: 1}
+    outlineUseGraphicAlpha: 1
+    gradient: 1
+    gradientTop: {r: 0.019607844, g: 0.015686275, b: 0.08235294, a: 0.627451}
+    gradientBottom: {r: 0.019607844, g: 0.015686275, b: 0.08235294, a: 0.74509805}
+  soundStyles:
+  - soundStyle: 0
+    audioSource: {fileID: 82315580880609368}
+  - soundStyle: 2
+    audioSource: {fileID: 82731754725388886}
+  - soundStyle: 3
+    audioSource: {fileID: 82801186024398487}
+  rarityStyles:
+  - rarity: 0
+    priceRange: 150
+    levelRange: 11
+    backgroundColor: {r: 0.8117647, g: 0.80784315, b: 0.72156864, a: 1}
+    glowColor: {r: 1, g: 1, b: 1, a: 1}
+  - rarity: 1
+    priceRange: 400
+    levelRange: 16
+    backgroundColor: {r: 0.7372549, g: 0.9372549, b: 0.12156863, a: 1}
+    glowColor: {r: 0.94509804, g: 1, b: 0.6313726, a: 1}
+  - rarity: 2
+    priceRange: 900
+    levelRange: 26
+    backgroundColor: {r: 0.043137256, g: 0.54901963, b: 0.9411765, a: 1}
+    glowColor: {r: 0.6313726, g: 1, b: 0.91764706, a: 1}
+  - rarity: 3
+    priceRange: 1800
+    levelRange: 31
+    backgroundColor: {r: 0.6627451, g: 0.14117648, b: 0.92156863, a: 1}
+    glowColor: {r: 0.9254902, g: 0.65882355, b: 0.99215686, a: 1}
+  - rarity: 4
+    priceRange: 10000000
+    levelRange: 10000000
+    backgroundColor: {r: 1, g: 0.58431375, b: 0.043137256, a: 1}
+    glowColor: {r: 1, g: 0.9137255, b: 0.8039216, a: 1}
+--- !u!82 &82315580880609368
+AudioSource:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662046483319857}
+  m_Enabled: 1
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ad17ec50e735b7c40a101fdc219a0bed, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82731754725388886
+AudioSource:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662046483319857}
+  m_Enabled: 1
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b3b13353017d2094387cba7089538b70, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82801186024398487
+AudioSource:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662046483319857}
+  m_Enabled: 1
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a14e39e52ed7bf4419124446a4fe752e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

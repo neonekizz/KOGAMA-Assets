@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1894260918943759
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224280110431922026}
+  - component: {fileID: 114099227244530251}
+  - component: {fileID: 222421672157054861}
+  - component: {fileID: 114543771616870373}
+  - component: {fileID: 114093904441324959}
+  - component: {fileID: 114830518686228056}
+  m_Layer: 5
+  m_Name: SoundInventoryController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224280110431922026
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894260918943759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0.0018310547}
+  m_SizeDelta: {x: 0, y: 0.22000122}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114099227244530251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894260918943759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba3aefb438be7eaaee8c5efcf9858b3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  headerText: {fileID: 114543771616870373}
+--- !u!222 &222421672157054861
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894260918943759}
+  m_CullTransparentMesh: 0
+--- !u!114 &114543771616870373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894260918943759}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 46fdb990f2d079b44a1f15229dd1b18d, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text:
+--- !u!114 &114093904441324959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894260918943759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2c4d89d86d64c31b95d38dbd7c145d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  urls:
+  - url: AmbientAudio/MusicLoop/kgm_amb_drippy.unity3d
+    name: Drippy
+    category: MusicLoop
+  - url: AmbientAudio/MusicLoop/kgm_amb_horror_music.unity3d
+    name: Horror
+    category: MusicLoop
+  - url: AmbientAudio/Nature/kgm_amb_creek.unity3d
+    name: Creek
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_forest.unity3d
+    name: Forest
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_forestevening.unity3d
+    name: Forest Evening
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_nightcamp.unity3d
+    name: Camp Fire
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_streaming_water.unity3d
+    name: Streaming Water
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_underwater.unity3d
+    name: Under Water
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_underwaterb.unity3d
+    name: Under Water 2
+    category: Nature
+  - url: AmbientAudio/Robotic/kgm_amb_robotic_crazyfast.unity3d
+    name: Crazy Fast
+    category: Robotic
+  - url: AmbientAudio/Robotic/kgm_amb_robotic_crazyslow.unity3d
+    name: Crazy Slow
+    category: Robotic
+  - url: AmbientAudio/Robotic/kgm_amb_robotic_electrofire.unity3d
+    name: Electro Fire
+    category: Robotic
+  - url: AmbientAudio/Robotic/kgm_amb_robotic_spaceshipa.unity3d
+    name: Spaceship
+    category: Robotic
+  - url: AmbientAudio/Robotic/kgm_amb_robotic_spaceshipb.unity3d
+    name: Spaceship 2
+    category: Robotic
+  - url: AmbientAudio/Robotic/kgm_amb_robotic_spaceshipc.unity3d
+    name: Spaceship 3
+    category: Robotic
+  - url: AmbientAudio/Suspense/kgm_amb_suspence_suspensea.unity3d
+    name: Suspence
+    category: Suspence
+  - url: AmbientAudio/Suspense/kgm_amb_suspence_suspenseb.unity3d
+    name: Suspence 2
+    category: Suspence
+  - url: AmbientAudio/Suspense/kgm_amb_suspence_suspensec.unity3d
+    name: Suspence 3
+    category: Suspence
+  - url: AmbientAudio/Suspense/kgm_amb_suspence_suspensed.unity3d
+    name: Suspence 4
+    category: Suspence
+  - url: AmbientAudio/Urban/kgm_amb_amusement_park.unity3d
+    name: Amusement Park
+    category: Urban
+  - url: AmbientAudio/Urban/kgm_amb_cafe.unity3d
+    name: Cafe
+    category: Urban
+  - url: AmbientAudio/Urban/kgm_amb_city_park.unity3d
+    name: City Park
+    category: Urban
+  - url: AmbientAudio/Urban/kgm_amb_metro_station.unity3d
+    name: Metro Station
+    category: Urban
+  - url: AmbientAudio/Machinery/kgm_amb_electrocute.unity3d
+    name: Electrocute
+    category: Machinery
+  - url: AmbientAudio/Machinery/kgm_amb_machinery_machinea.unity3d
+    name: Machine
+    category: Machinery
+  - url: AmbientAudio/Machinery/kgm_amb_machinery_machineb.unity3d
+    name: Machine 2
+    category: Machinery
+  - url: AmbientAudio/Machinery/kgm_amb_machinery_machinec.unity3d
+    name: Machine 3
+    category: Machinery
+  - url: AmbientAudio/Machinery/kgm_amb_machinery_transmitter.unity3d
+    name: Transmitter
+    category: Machinery
+  - url: AmbientAudio/Horror/kgm_amb_horror_creepywinda.unity3d
+    name: Creepy Wind
+    category: Horror
+  - url: AmbientAudio/Horror/kgm_amb_horror_creepywindb.unity3d
+    name: Creepy Wind 2
+    category: Horror
+  - url: AmbientAudio/Horror/kgm_amb_horror_creepywindc.unity3d
+    name: Creepy Wind 3
+    category: Horror
+  - url: AmbientAudio/Horror/kgm_amb_horror_danger.unity3d
+    name: Danger
+    category: Horror
+  - url: AmbientAudio/Horror/kgm_amb_horror_rumble.unity3d
+    name: Rumble
+    category: Horror
+  - url: AmbientAudio/Horror/kgm_amb_rusty_chain.unity3d
+    name: Rusty chain
+    category: Horror
+  - url: AmbientAudio/Delight/kgm_amb_delight_magnificencea.unity3d
+    name: Magnificance
+    category: Delight
+  - url: AmbientAudio/Delight/kgm_amb_delight_magnificenceb.unity3d
+    name: Magnificance 2
+    category: Delight
+  - url: AmbientAudio/Alarms/kgm_amb_alarms_beepsclassic.unity3d
+    name: Classic Beep
+    category: Alarm
+  - url: AmbientAudio/Alarms/kgm_amb_alarms_beepsfast.unity3d
+    name: Slow Beep
+    category: Alarm
+  - url: AmbientAudio/Alarms/kgm_amb_alarms_beepsslow.unity3d
+    name: Fast Beep
+    category: Alarm
+  - url: AmbientAudio/Alarms/kgm_amb_alarms_sirenfast.unity3d
+    name: Fast Siren
+    category: Alarm
+  - url: AmbientAudio/Alarms/kgm_amb_alarms_sirenslow.unity3d
+    name: Slow Siren
+    category: Alarm
+  - url: AmbientAudio/Nature/kgm_amb_hurricane.unity3d
+    name: Hurricane
+    category: Nature
+  - url: AmbientAudio/Nature/kgm_amb_rainheavythunder.unity3d
+    name: Rain and Thunder
+    category: Nature
+  - url: AmbientAudio/Music/QuestForTreasures.unity3d
+    name: Quest For Treasures
+    category: MusicLoop
+  - url: AmbientAudio/Music/ChristmasSpirit.unity3d
+    name: Spirit Of The Frost Festival
+    category: MusicLoop
+  - url: AmbientAudio/Music/WinterWonderland.unity3d
+    name: Winter Wonderland
+    category: MusicLoop
+  - url: AmbientAudio/Music/runningonbrightfallingstars.unity3d
+    name: Bright Falling Stars
+    category: MusicLoop
+  - url: AmbientAudio/Music/slowstones.unity3d
+    name: Slow Stones
+    category: MusicLoop
+  - url: AmbientAudio/Music/HereWeGo.unity3d
+    name: Here We Go
+    category: MusicLoop
+  - url: AmbientAudio/Music/HappyLanes.unity3d
+    name: Happy Lanes
+    category: MusicLoop
+  - url: AmbientAudio/Music/FunkyDrivin.unity3d
+    name: Funkynoxious Drivin
+    category: MusicLoop
+--- !u!114 &114830518686228056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894260918943759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62dbbcaf5a7304373bf374933cccf96, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  inventoryControllerPrefab: {fileID: 114789459540502460, guid: abbadbd083a64514f9ef6cae1999f0f5, type: 2}
+  numberOfSlotsPrPage: 10
+  soundViewItemPrefab: {fileID: 114257900410357059, guid: ca4e987e1579f2b4c9048e14df938e28, type: 2}
+  settingsBase: {fileID: 114099227244530251}
+  audioUrls: {fileID: 114093904441324959}

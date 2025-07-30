@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1502012469008007
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224339366958164009}
+  - component: {fileID: 114686777949663039}
+  m_Layer: 5
+  m_Name: SpawnRoleSkillsDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224339366958164009
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502012469008007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114686777949663039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502012469008007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb78b147c2577a09ce8ee5b37062b91e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  skillDataList:
+  - type: HealthRegeneration
+    name: Health Regeneration
+    description: Regain health as time passes!
+    iconPrefab: {fileID: 114458792868282418, guid: bd879e245313d4a4884d071aa6da17d2, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: SuperSpeed
+    name: Speed Modifier (%)
+    description: Run <color=#{0}>{1}</color>% of your normal speed!
+    iconPrefab: {fileID: 114539984972271772, guid: 34dd6110c61f89e4b8bcc1c674a5845b, type: 2}
+    settingsPrefab: {fileID: 114401998312787157, guid: 4059cdc14024dfc4d8535f6da8968f52, type: 2}
+    zeroValue: 100
+  - type: DoubleJump
+    name: Double Jump
+    description: Gain the ability to jump in the air without landing!
+    iconPrefab: {fileID: 114709808445338716, guid: 4dd962e1d9cc9354bb9c598591f2b370, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: EndlessAmmo
+    name: Unlimited Ammo
+    description: Gain the ability to never stop shooting!
+    iconPrefab: {fileID: 114769156802150401, guid: 229ff955483fd3f45ab24e9248ef8f72, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: MaxHealth
+    name: Health
+    description: Changes the class base health to <color=#{0}>{1}</color>% of the default health!
+    iconPrefab: {fileID: 114702601769566690, guid: 903179de4691ba3459f696f6a3584b18, type: 2}
+    settingsPrefab: {fileID: 114401998312787157, guid: 4059cdc14024dfc4d8535f6da8968f52, type: 2}
+    zeroValue: 100
+  - type: DamageReduction
+    name: Damage Reduction (%)
+    description: Reduces the damage taken by <color=#{0}>{1}</color>%.
+    iconPrefab: {fileID: 114059585582932277, guid: ebac52bd353feef4ba1e0e2accbe7bcd, type: 2}
+    settingsPrefab: {fileID: 114401998312787157, guid: 4059cdc14024dfc4d8535f6da8968f52, type: 2}
+    zeroValue: 0
+  - type: JumpHeight
+    name: Jump Height (%)
+    description: Jump <color=#{0}>{1}</color>% of your jump height!
+    iconPrefab: {fileID: 114826509786408526, guid: 8c0f9bc6c925e9c4992016c5404c2650, type: 2}
+    settingsPrefab: {fileID: 114401998312787157, guid: 4059cdc14024dfc4d8535f6da8968f52, type: 2}
+    zeroValue: 100
+  - type: OxygenSupply
+    name: Oxygen (Seconds)
+    description: Sets total duration before you start suffocating to <color=#{0}>{1}</color> seconds.
+    iconPrefab: {fileID: 114683042901714936, guid: a94bfdbc7b28bff4ebddda87bae31b15, type: 2}
+    settingsPrefab: {fileID: 114476418479085036, guid: a530495c7778af14fb8b7dfc7416b855, type: 2}
+    zeroValue: 20
+  - type: SlowFall
+    name: Slow Fall (%)
+    description: Allows you to fall <color=#{0}>{1}</color>% slower by holding the jump button.
+    iconPrefab: {fileID: 114091741734855626, guid: d90da3d78d8498541806cf994d6c926c, type: 2}
+    settingsPrefab: {fileID: 114401998312787157, guid: 4059cdc14024dfc4d8535f6da8968f52, type: 2}
+    zeroValue: 0
+  - type: CanWallJumpAnySurface
+    name: Parkour Master
+    description: A parkour master can wall jump on any wall.
+    iconPrefab: {fileID: 114109370192139650, guid: e179718f10743aa46b32b76ca6265aab, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: FrictionMultiplier
+    name: Slippery Shoes (%)
+    description: Decreases your friction by <color=#{0}>{1}</color>%!
+    iconPrefab: {fileID: 114945869890018986, guid: 2539c669d6c249c4abb87b3b6ed69698, type: 2}
+    settingsPrefab: {fileID: 114401998312787157, guid: 4059cdc14024dfc4d8535f6da8968f52, type: 2}
+    zeroValue: 0
+  - type: BreathesWater
+    name: Gills
+    description: 'You breathe water instead of air. '
+    iconPrefab: {fileID: 114313470401917819, guid: d136b34abbc332041b535052e16d005d, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: UnableToEquipWeapons
+    name: No Weapons
+    description: You're unable to pick up weapons.
+    iconPrefab: {fileID: 114322327043643002, guid: a971da1dd8732fa43b51a7a96d2a47e1, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: UnableToCollectModifierPickups
+    name: No Consumables
+    description: You're unable to pick up modifier items.
+    iconPrefab: {fileID: 114630417836654390, guid: 1a860b14fa0d25b49ad6f047600b4f5b, type: 2}
+    settingsPrefab: {fileID: 114006667527413596, guid: 0f4c8b17872b8b24fa93cd1e6b680a33, type: 2}
+    zeroValue: 0
+  - type: Size
+    name: Size
+    description: You are a different size than normal.
+    iconPrefab: {fileID: 114588370320330244, guid: 6d5f3035f126df54285461c1cc5edd22, type: 2}
+    settingsPrefab: {fileID: 114625153106004921, guid: 39b26c4c0a7d9854585ec03a0a783d73, type: 2}
+    zeroValue: 1
+  defenceSkillsList:
+  - MaxHealth
+  - DamageReduction
+  offenceSkillsList:
+  - EndlessAmmo
+  tacticalSkillsList:
+  - DoubleJump
+  - JumpHeight
+  - OxygenSupply
+  - SlowFall
+  - CanWallJumpAnySurface
+  - SuperSpeed
+  - FrictionMultiplier
+  - BreathesWater
+  - UnableToEquipWeapons
+  - UnableToCollectModifierPickups
+  - Size

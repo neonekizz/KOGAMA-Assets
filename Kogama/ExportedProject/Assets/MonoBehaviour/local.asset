@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bafa6a581313d19fd41848346e316075, type: 3}
+  m_Name: local
+  m_EditorClassIdentifier:
+  sentryConfig:
+    dns: https://fa4a258cdafc49bd9ad0ab6bd48a0f17@o11811.ingest.sentry.io/22239
+    isEnabled: 1
+  StathatConfig:
+    regionKey: local
+    isEnabled: 0
+  DebuggerLoggerConfig:
+    useSamplingOnAndroidAndWebGL: 0
+    useProxyLogHandler: 0
+    maxLogContextQueueCount: 20
+    proxyLogHandlerConfig:
+      filterLogTypeConsoleWrite: 3
+  PhotonLoggingConfig:
+    defaultDebugLevel: 2
+    untilConnectedDebugLevel: 5
+  TestSetup:
+    testAlternatePort: 0
+  StaticAssetsConfig:
+    url: https://dev.kogstatic.com/

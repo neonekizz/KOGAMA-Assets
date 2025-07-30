@@ -1,0 +1,584 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84f9c993044ed211fe57bb0ba0c3b332, type: 3}
+  m_Name: ColorPresets
+  m_EditorClassIdentifier:
+  presets:
+  - name: Default
+    skyParamList:
+      Params:
+      - Time: 5
+        TopColor: {r: 0.02745098, g: 0.047058824, b: 0.2, a: 1}
+        BottomColor: {r: 0, g: 0.20392157, b: 0.5019608, a: 1}
+      - Time: 20
+        TopColor: {r: 0.02745098, g: 0.047058824, b: 0.2, a: 1}
+        BottomColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+      - Time: 25
+        TopColor: {r: 0.03137255, g: 0.047058824, b: 0.20392157, a: 1}
+        BottomColor: {r: 0.98039216, g: 0.6392157, b: 0.3764706, a: 1}
+      - Time: 30
+        TopColor: {r: 0.24705882, g: 0.32156864, b: 0.56078434, a: 1}
+        BottomColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+      - Time: 35
+        TopColor: {r: 0.015686275, g: 0.41960785, b: 0.59607846, a: 1}
+        BottomColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+      - Time: 40
+        TopColor: {r: 0.015686275, g: 0.41960785, b: 0.59607846, a: 1}
+        BottomColor: {r: 0.6745098, g: 0.88235295, b: 0.92156863, a: 1}
+      - Time: 45
+        TopColor: {r: 0, g: 0.7921569, b: 0.9882353, a: 1}
+        BottomColor: {r: 0.6745098, g: 0.88235295, b: 0.92156863, a: 1}
+      - Time: 55
+        TopColor: {r: 0, g: 0.7921569, b: 0.9882353, a: 1}
+        BottomColor: {r: 1, g: 0.99695736, b: 0.8897059, a: 1}
+      - Time: 65
+        TopColor: {r: 0, g: 0.7921569, b: 0.9882353, a: 1}
+        BottomColor: {r: 0.6745098, g: 0.88235295, b: 0.92156863, a: 1}
+      - Time: 70
+        TopColor: {r: 0.015686275, g: 0.41960785, b: 0.59607846, a: 1}
+        BottomColor: {r: 0.6117647, g: 0.7647059, b: 0.827451, a: 1}
+      - Time: 75
+        TopColor: {r: 0.015686275, g: 0.41960785, b: 0.59607846, a: 1}
+        BottomColor: {r: 0.76862746, g: 0.45490196, b: 0.6745098, a: 1}
+      - Time: 80
+        TopColor: {r: 0.24313726, g: 0.32156864, b: 0.5568628, a: 1}
+        BottomColor: {r: 0.76862746, g: 0.45490196, b: 0.6745098, a: 1}
+      - Time: 85
+        TopColor: {r: 0.03137255, g: 0.047058824, b: 0.20392157, a: 1}
+        BottomColor: {r: 0.64705884, g: 0.41960785, b: 0.64705884, a: 1}
+      - Time: 90
+        TopColor: {r: 0.03137255, g: 0.047058824, b: 0.20392157, a: 1}
+        BottomColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 25
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 1}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 1
+      - Time: 40
+        TintColor: {r: 0.7529412, g: 0.6156863, b: 0.50980395, a: 1}
+        LightColor: {r: 0.6745098, g: 0.88235295, b: 0.92156863, a: 1}
+        LightIntencity: 1
+      - Time: 50
+        TintColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+        LightColor: {r: 0.92156863, g: 0.92156863, b: 0.92156863, a: 1}
+        LightIntencity: 1
+      - Time: 70
+        TintColor: {r: 0.7529412, g: 0.6156863, b: 0.50980395, a: 1}
+        LightColor: {r: 0.6117647, g: 0.7647059, b: 0.827451, a: 1}
+        LightIntencity: 1
+      - Time: 75
+        TintColor: {r: 1, g: 0.52156866, b: 0.52156866, a: 1}
+        LightColor: {r: 0.76862746, g: 0.45490196, b: 0.6745098, a: 1}
+        LightIntencity: 1
+      - Time: 80
+        TintColor: {r: 1, g: 0.45490196, b: 0.5176471, a: 1}
+        LightColor: {r: 0.76862746, g: 0.45490196, b: 0.6745098, a: 1}
+        LightIntencity: 1
+      - Time: 85
+        TintColor: {r: 0.76862746, g: 0.45490196, b: 0.6745098, a: 0}
+        LightColor: {r: 0.76862746, g: 0.45490196, b: 0.6745098, a: 1}
+        LightIntencity: 0
+    moonParamsList:
+      Params:
+      - Time: 90
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 92.5
+        TintColor: {r: 0.40392157, g: 0.4745098, b: 0.5294118, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+      - Time: 5
+        TintColor: {r: 0.49019608, g: 0.5529412, b: 0.60784316, a: 1}
+        LightColor: {r: 0.011764706, g: 0.43529412, b: 0.78431374, a: 1}
+        LightIntencity: 1
+      - Time: 20
+        TintColor: {r: 0.40392157, g: 0.4745098, b: 0.5294118, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+      - Time: 22.5
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+    starsParamList:
+      Params:
+      - Time: 85
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 95
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+      - Time: 5
+        TintColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+      - Time: 15
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+      - Time: 25
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+  - name: Candy Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.112132356, g: 0.14229201, b: 0.44852942, a: 1}
+        BottomColor: {r: 0.20423438, g: 0.08272059, b: 0.33088237, a: 1}
+      - Time: 50
+        TopColor: {r: 0.7794118, g: 0.478, b: 0.7336803, a: 1}
+        BottomColor: {r: 1, g: 0.71323526, b: 0.99208933, a: 1}
+      - Time: 100
+        TopColor: {r: 0.18716285, g: 0.14759947, b: 0.6691177, a: 1}
+        BottomColor: {r: 0.38235295, g: 0.039359853, b: 0.18049954, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.27058825, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.428, b: 0.37647057, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.8060506, b: 0.63235295, a: 1}
+        LightColor: {r: 1, g: 0.872, b: 0, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4290196, g: 0.40392157, b: 0.5294118, a: 0}
+        LightColor: {r: 0.27091298, g: 0.007843144, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.49652466, g: 0.40392157, b: 0.5294118, a: 1}
+        LightColor: {r: 0.41211608, g: 0.00784313, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Green Warm Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.18474264, g: 0.20180015, b: 0.375, a: 1}
+        BottomColor: {r: 0.20423438, g: 0.08272059, b: 0.33088237, a: 1}
+      - Time: 50
+        TopColor: {r: 0.4160359, g: 0.99264705, b: 0.65861005, a: 1}
+        BottomColor: {r: 0.97794116, g: 0.26605755, b: 0.26605755, a: 1}
+      - Time: 90
+        TopColor: {r: 0.8088235, g: 0.52573526, b: 0.10110294, a: 1}
+        BottomColor: {r: 0.83823526, g: 0.25270328, b: 0.25270328, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 0.8945234, g: 1, b: 0.2352941, a: 1}
+        LightColor: {r: 0.9169372, g: 1, b: 0.1397059, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.40392157, g: 0.4745098, b: 0.5294118, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Love Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.44852942, g: 0.112132385, b: 0.23045135, a: 1}
+        BottomColor: {r: 0.33088237, g: 0.08272059, b: 0.19054256, a: 1}
+      - Time: 50
+        TopColor: {r: 0.7794118, g: 0.478, b: 0.5840138, a: 1}
+        BottomColor: {r: 1, g: 0.71323526, b: 0.8496957, a: 1}
+      - Time: 90
+        TopColor: {r: 0.6691177, g: 0.14759947, b: 0.35261017, a: 1}
+        BottomColor: {r: 0.7058823, g: 0.21280275, b: 0.21280275, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.40324548, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.5602434, b: 0.37647057, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.3776876, b: 0.2352941, a: 1}
+        LightColor: {r: 1, g: 0.1397059, b: 0.1397059, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.5294118, g: 0.40392157, b: 0.40392157, a: 0}
+        LightColor: {r: 0.54509807, g: 0.007843144, b: 0.007843144, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.5294118, g: 0.40392157, b: 0.40392157, a: 1}
+        LightColor: {r: 0.5882353, g: 0.00784313, b: 0.00784313, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Poison
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.112132385, g: 0.44852942, b: 0.2536511, a: 1}
+        BottomColor: {r: 0.28638452, g: 0.08272059, b: 0.33088237, a: 1}
+      - Time: 50
+        TopColor: {r: 0.36937717, g: 0.8235294, b: 0.4476793, a: 1}
+        BottomColor: {r: 0.82217234, g: 0.47983345, b: 0.9191176, a: 1}
+      - Time: 90
+        TopColor: {r: 0.14759947, g: 0.6691177, b: 0.15119612, a: 1}
+        BottomColor: {r: 0.4152249, g: 0.9411765, b: 0.5276697, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 0.8945234, g: 1, b: 0.2352941, a: 1}
+        LightColor: {r: 0.9169372, g: 1, b: 0.1397059, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.40392157, g: 0.5294118, b: 0.44632864, a: 0}
+        LightColor: {r: 0.007843144, g: 0.54509807, b: 0.07824214, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.40392157, g: 0.5294118, b: 0.41517243, a: 1}
+        LightColor: {r: 0.00784313, g: 0.5882353, b: 0.17995942, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Pumpkin Spice Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.112132385, g: 0.14229204, b: 0.44852942, a: 1}
+        BottomColor: {r: 0.33088237, g: 0.09812374, b: 0.08272059, a: 1}
+      - Time: 50
+        TopColor: {r: 0.85294116, g: 0.43010372, b: 0.20069203, a: 1}
+        BottomColor: {r: 1, g: 0.56267744, b: 0.43382353, a: 1}
+      - Time: 90
+        TopColor: {r: 0.14759947, g: 0.23751642, b: 0.6691177, a: 1}
+        BottomColor: {r: 0.7058823, g: 0.2434077, b: 0.21280275, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.7574036, b: 0.2352941, a: 1}
+        LightColor: {r: 1, g: 0.64137924, b: 0, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.40392157, g: 0.4745098, b: 0.5294118, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Melon Mambo Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.44852942, g: 0.112132385, b: 0.27221096, a: 1}
+        BottomColor: {r: 0.08272059, g: 0.12550712, b: 0.33088237, a: 1}
+      - Time: 50
+        TopColor: {r: 0.85294116, g: 0.20069207, b: 0.4031141, a: 1}
+        BottomColor: {r: 1, g: 0.6095334, b: 0.43382353, a: 1}
+      - Time: 90
+        TopColor: {r: 0.6691177, g: 0.54683065, b: 0.14759947, a: 1}
+        BottomColor: {r: 0.7058823, g: 0.21280275, b: 0.36582738, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.47261664, b: 0.2352941, a: 1}
+        LightColor: {r: 1, g: 0.1397059, b: 0.54908717, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.5294118, g: 0.40392157, b: 0.48960108, a: 0}
+        LightColor: {r: 0.54509807, g: 0.007843144, b: 0.3301963, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.5294118, g: 0.40392157, b: 0.4636376, a: 1}
+        LightColor: {r: 0.5882353, g: 0.00784313, b: 0.28402972, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Daffodil Delight Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.112132385, g: 0.44852942, b: 0.3650102, a: 1}
+        BottomColor: {r: 0.08272059, g: 0.10496952, b: 0.33088237, a: 1}
+      - Time: 50
+        TopColor: {r: 0.13200001, g: 0.894, b: 0.67328274, a: 1}
+        BottomColor: {r: 1, g: 0.96095335, b: 0.43382353, a: 1}
+      - Time: 90
+        TopColor: {r: 0.6691177, g: 0.14759947, b: 0.4605106, a: 1}
+        BottomColor: {r: 0.7058823, g: 0.406634, b: 0.21280275, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.78904665, b: 0.2352941, a: 1}
+        LightColor: {r: 1, g: 0.6914807, b: 0.1397059, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.40392157, g: 0.4745098, b: 0.5294118, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Pool Party Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.4438895, g: 0.112132385, b: 0.44852942, a: 1}
+        BottomColor: {r: 0.33088237, g: 0.08272059, b: 0.21108016, a: 1}
+      - Time: 50
+        TopColor: {r: 0.33399996, g: 0.872, b: 0.69390345, a: 1}
+        BottomColor: {r: 0.43382353, g: 0.57829607, b: 1, a: 1}
+      - Time: 90
+        TopColor: {r: 0.6691177, g: 0.56841075, b: 0.14759947, a: 1}
+        BottomColor: {r: 0.474645, g: 0.7058823, b: 0.21280275, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.69803923, g: 0.45882353, b: 0.27058825, a: 0}
+        LightColor: {r: 0.96862745, g: 0.63529414, b: 0.3764706, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.78904665, b: 0.2352941, a: 1}
+        LightColor: {r: 1, g: 0.6914807, b: 0.1397059, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.48094663, g: 0.40392157, b: 0.5294118, a: 0}
+        LightColor: {r: 0.29314402, g: 0.007843144, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.48094663, g: 0.40392157, b: 0.5294118, a: 1}
+        LightColor: {r: 0.26801905, g: 0.00784313, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Icy Plains Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.112132385, g: 0.14229204, b: 0.44852942, a: 1}
+        BottomColor: {r: 0.222, g: 0.09812374, b: 0.228, a: 1}
+      - Time: 50
+        TopColor: {r: 0.49437717, g: 0.71561575, b: 0.9338235, a: 1}
+        BottomColor: {r: 0.7794118, g: 0.9452333, b: 1, a: 1}
+      - Time: 90
+        TopColor: {r: 0.14759947, g: 0.472, b: 0.6691177, a: 1}
+        BottomColor: {r: 0.21280275, g: 0.6650757, b: 0.7058823, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.33607265, g: 0.71684474, b: 0.8161765, a: 0}
+        LightColor: {r: 0.74264705, g: 0.96805274, b: 1, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 0.2352941, g: 0.84178483, b: 1, a: 1}
+        LightColor: {r: 0.8161765, g: 0.9467546, b: 1, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.40392157, g: 0.4745098, b: 0.5294118, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Tranquility Luxury Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.112132385, g: 0.14229204, b: 0.44852942, a: 1}
+        BottomColor: {r: 0.222, g: 0.09812374, b: 0.228, a: 1}
+      - Time: 50
+        TopColor: {r: 0.9338235, g: 0.739861, b: 0.49437717, a: 1}
+        BottomColor: {r: 0.44852942, g: 0.23086074, b: 0.4155038, a: 1}
+      - Time: 90
+        TopColor: {r: 0.809, g: 0.52525055, b: 0.348, a: 1}
+        BottomColor: {r: 0.7058823, g: 0.100000024, b: 0.31310347, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 1, g: 0.8513856, b: 0.49989188, a: 0}
+        LightColor: {r: 1, g: 0.8310986, b: 0.57774657, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.8154158, b: 0.4852941, a: 1}
+        LightColor: {r: 1, g: 0.8957881, b: 0.69625866, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.64186853, g: 0.7383758, b: 0.8235294, a: 0}
+        LightColor: {r: 0.007843138, g: 0.3019608, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.6128893, g: 0.71896625, b: 0.8014706, a: 1}
+        LightColor: {r: 0.007843138, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.9044118, g: 0.83690196, b: 0.691609, a: 0}
+      - Time: 0
+        TintColor: {r: 0.88235295, g: 0.76243883, b: 0.44766438, a: 1}
+  - name: Mermaid Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.44852942, g: 0.112132385, b: 0.36965013, a: 1}
+        BottomColor: {r: 0.22799999, g: 0.09812374, b: 0.09812374, a: 1}
+      - Time: 50
+        TopColor: {r: 0.65500236, g: 0.49437717, b: 0.9338235, a: 1}
+        BottomColor: {r: 1, g: 0.97565925, b: 0.7794118, a: 1}
+      - Time: 90
+        TopColor: {r: 0.3382233, g: 0.14759947, b: 0.6691177, a: 1}
+        BottomColor: {r: 0.7058823, g: 0.30461755, b: 0.21280275, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.8161765, g: 0.56453586, b: 0.33607265, a: 0}
+        LightColor: {r: 0.95385396, g: 0.74264705, b: 1, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 1, g: 0.9156188, b: 0.2352941, a: 1}
+        LightColor: {r: 0.8161765, g: 0.678, b: 1, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.49652466, g: 0.40392157, b: 0.5294118, a: 0}
+        LightColor: {r: 0.47099403, g: 0.007843144, b: 0.54509807, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.52768093, g: 0.40392157, b: 0.5294118, a: 1}
+        LightColor: {r: 0.509, g: 0.3254902, b: 0.5882353, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Grey World Theme
+    skyParamList:
+      Params:
+      - Time: 0
+        TopColor: {r: 0.40224916, g: 0.40705764, b: 0.45588237, a: 1}
+        BottomColor: {r: 0.278083, g: 0.25064883, b: 0.2794118, a: 1}
+      - Time: 50
+        TopColor: {r: 0.74005187, g: 0.80428946, b: 0.86764705, a: 1}
+        BottomColor: {r: 0.922, g: 0.9452333, b: 1, a: 1}
+      - Time: 90
+        TopColor: {r: 0.5844507, g: 0.6508374, b: 0.6911765, a: 1}
+        BottomColor: {r: 0.6517084, g: 0.7148878, b: 0.7205882, a: 1}
+    sunParamsList:
+      Params:
+      - Time: 0
+        TintColor: {r: 0.7461072, g: 0.82500595, b: 0.8455882, a: 0}
+        LightColor: {r: 0.9117647, g: 0.98904663, b: 1, a: 1}
+        LightIntencity: 0
+      - Time: 30
+        TintColor: {r: 0.8666198, g: 0.9782357, b: 1, a: 1}
+        LightColor: {r: 0.8602941, g: 0.95953345, b: 1, a: 1}
+        LightIntencity: 1
+    moonParamsList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.40392157, g: 0.47058824, b: 0.5294118, a: 0}
+        LightColor: {r: 0.4622621, g: 0.51109886, b: 0.5514706, a: 1}
+        LightIntencity: 0
+      - Time: 0
+        TintColor: {r: 0.43252593, g: 0.4539359, b: 0.4705882, a: 1}
+        LightColor: {r: 0.5125432, g: 0.549945, b: 0.5808823, a: 1}
+        LightIntencity: 1
+    starsParamList:
+      Params:
+      - Time: 50
+        TintColor: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 0}
+      - Time: 0
+        TintColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}

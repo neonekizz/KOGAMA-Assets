@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1786687872702639
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4485875728912802}
+  - component: {fileID: 114738017115195920}
+  m_Layer: 0
+  m_Name: SwordTrail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4485875728912802
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786687872702639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.2417674, y: 2.1255996, z: 21.721178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114738017115195920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786687872702639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093941be8c9e36ec3077a6a9b35f5150, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 60809d76d0d3cfb428557eb35c3c2938, type: 2}
+  maxPointsDrawn: 0
+  pointsStored: 60
+  minVel: 1
+  faceCamera: 0
+  twist: 1
+  lifetime: 0.25
+  colors:
+  - {r: 0.6912199, g: 0.9604748, b: 0.9836956, a: 0.35}
+  - {r: 0.29169005, g: 0.6878983, b: 0.75, a: 0.78}
+  - {r: 0.25196025, g: 0.34548083, b: 0.6956522, a: 0.68}
+  widths:
+  - 4
+  - 0
+  pointDistance: 0.5
+  segmentsPerPoint: 4
+  printResults: 0
+  printSavedPoints: 0
+  printSegmentPoints: 0
+  maxLifeTime: 5
